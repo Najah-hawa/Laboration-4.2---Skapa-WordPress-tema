@@ -1,0 +1,783 @@
+/* Global styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    background-color:   #b9d3c451  ;
+    color: #000000;
+}
+/* Grundläggande styling för header */
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #40805c;
+    color: white;
+}
+
+#logo-div {
+    display: flex;
+    align-items: center;
+}
+
+#logo {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+#SEE_namn {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+    color: #312e2ee0;
+}
+
+
+/* Styling för nav med li element */
+#nav {
+    display: flex;
+}
+
+#nav ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#nav ul li {
+    margin-left: 20px;
+}
+
+#nav ul li a {
+    padding: 8px 12px;
+    border: 2px solid transparent;
+    border-radius: 4px;
+    transition: background-color 0.3s, border-color 0.3s;
+    text-decoration: none;
+    color: white;
+}
+
+#nav ul li a:hover {
+    background-color: #444;
+    border-color: #fff;
+}
+
+
+
+/*style för main container på start sida */
+main { 
+    margin: 0 auto;
+    width: 100%;
+    
+}
+
+.small_box{  /*liten låda för företags info på start sida*/
+    display: flex;
+}
+
+.box{
+    background-color: white;
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 40px;
+    border-style:double; 
+    text-align: center;
+    margin-bottom: 30px;
+}
+.box h3{
+    margin-top: 30px;
+}
+.box p{
+    text-align: left;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 20px;
+}
+.display{
+    display: flex; /*display två divar flex*/
+}
+
+/*Style för div 1 med namn carlist*/
+.h2 {
+    padding-top: 40px;
+    margin-bottom: 30px;
+    text-align: center;
+    color: #73847a;
+    font-size: 1.7em;
+    margin-left: 10%;   
+}
+
+.car-list {
+    display: inline-block;
+    width: 800px; 
+}
+.car-item {
+    background-color: white;
+    padding: 10%;
+    margin-bottom: 20px;
+    margin-left: 100px;
+    width: 700px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.car-item img {
+    width: 280px;
+    height: auto;
+    border-radius: 8px;
+}
+.car-item img:hover {
+    zoom: 1.2;
+}
+/*style för varje div_bil innehåll*/
+.car-item h3 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: #2d3b3a;
+}
+
+.car-item p {
+    color: #777;
+    font-size: 1em;
+    margin-bottom: 20px;
+}
+
+.kontakt_info {
+    background-color: #b9d3c451;
+    border-style:groove;
+}
+.kontakt_info h4 {
+    margin: 15px;
+}
+/*Style för div 2 med namn commer-snart-list*/
+#h2_kommer_snart_list {
+    padding-top: 70px;
+    text-align: center;
+    color: #000000;
+    font-size: 1.3em;
+    align-content: center;
+}
+.commer-snart-list{
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: 80px;
+    background-color: #40805ccb;
+    margin-top: 10px;
+    margin-bottom: 220px;
+    border-radius: 10px;
+    height: auto;
+    display: grid;
+    align-items: center;
+    text-align: center;
+}
+.fix_btn{
+    color:black;
+    background-color:  #b9d3c451;
+    margin: 35%;
+    border-style:double;
+    font-size: 1.1em;
+    text-decoration: none;
+    align-items: center;
+}
+.fix_btn:hover{
+background-color: #9de8becb;
+}
+/* style för varje div_bil kommer snart div */
+
+.commer1 h3{
+    padding-top: 30px;
+    margin-bottom: 15px;
+    text-align: center;
+    color:  #000000 ;
+    font-size: 1em;
+}
+.commer1 img{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+}
+.commer1 img:hover {
+    zoom: 1.2;
+    border-radius: 20px;
+}
+
+
+/* Footer styles */
+footer {
+    background-color: #2d3b3a;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+#footer-h{
+    font-size: 2em;
+    color: white;
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+} 
+footer ul { /*lägger meny i footer */
+    list-style-type: none;
+    display: flex;
+    margin-left: 410px;
+    margin-bottom: 10px;
+}
+
+footer ul li {
+    padding-right: 40px;
+    padding-left: 40px;
+}
+
+footer  ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1em;
+    padding-right: 20px;
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
+    color: #73847a;
+}
+
+
+
+/* STYLE FÖR OM-SIDA (WORDPRESS-ANPASSAD) */
+
+/* 1. Main Container - Rensad från WP-störningar och perfekt centrerad */
+main .container {
+    display: block !important;
+    width: 80% !important;
+    max-width: 1100px;
+    min-height: 350px;
+    margin-top: 40px !important;
+    margin-bottom: 20px !important;
+    margin-left: auto !important;  /* Ändrat från 10% till auto för att centrera i WP */
+    margin-right: auto !important; /* Lagt till för att centrera i WP */
+    background-color: #b9d3c434 !important;
+    border-radius: 10px !important;
+    border-style: double !important;
+    box-sizing: border-box !important;
+    float: none !important;
+}
+
+/* 2. Sektionsrubriker (Om Oss) */
+main .container .h2-om {
+    display: block !important;
+    text-align: center !important;
+    width: 100% !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    padding-top: 40px !important; /* Behåller dina 40px från originalet */
+    margin-bottom: 20px !important;
+    color: black !important;
+    font-size: 1.7em !important;
+}
+
+h3.h2-om {
+    padding-top: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: black;
+    font-size: 1.7em;
+}
+
+/* 3. Standard-block inuti WordPress-editorn (Mappar till gamla klasser .h3-om, .p-om, .ul-om) */
+.container .entry-content h3:not(.wp-block-group h3) {
+    padding-top: 20px;
+    padding-left: 30px;
+    margin-bottom: 20px;
+    text-align: left;
+    color: #73847a;
+    font-size: 1.4em;
+}
+
+.container .entry-content p:not(.wp-block-group p) {
+    padding-left: 30px;
+    width: 80%; 
+    color: #333333;
+}
+
+.container .entry-content ul {
+    margin-left: 40px;
+}
+
+/* 4. Personal-sektionen (Mappar WP-grupper till gamla .personal, .personal h3, .personal img) */
+
+/* Själva kortet/boxen för den anställda */
+.container .entry-content .wp-block-group {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+/* Namn och titel (t.ex. Najah Hawa – Försäljningschef) */
+.container .entry-content .wp-block-group h3 {
+    text-align: center;
+    margin-top: 40px;
+    color: #73847a;
+    padding-left: 0; 
+}
+
+/* Bilden på den anställda */
+.container .entry-content .wp-block-group img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    object-fit: cover; /* Ser till att runda bilder inte blir utdragna */
+}
+
+/* Beskrivningstexten för personalen  */
+.container .entry-content .wp-block-group p {
+    text-align: left;
+    margin-left: 10%;
+    width: 80%; 
+    padding-left: 0; /* Nollställer sidleds-paddning från vanliga p */
+}
+/* design för kontakt sida*/
+
+
+.form-container {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+    /* Ändrat till margin: auto för att centrera boxen perfekt i WordPress */
+    margin-top: 40px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+}
+
+/* Rubrik för kontakt sida */
+.h2-kontakt {
+    color: #333333;
+    margin-bottom: 20px;
+}
+
+/* Formulärfält inuti vår form-container */
+.form-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-container label {
+    text-align: left;
+    color: #333333;
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block; /* Tvingar texten att ligga ovanför fälten */
+}
+
+.form-container input, 
+.form-container textarea {
+    width: 100%;
+    font-size: 16px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+}
+
+.form-container input:focus, 
+.form-container textarea:focus {
+    border-color: #4CAF50;
+    outline: none;
+}
+
+/* Submit-knapp (Anpassad för både <button> och pluginets <input type="submit">) */
+.form-container button,
+.form-container input[type="submit"] {
+    width: 100%; /* Gör att knappen sträcker sig snyggt över hela bredden */
+    padding: 12px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    -webkit-appearance: none; /* Tar bort mobil-webbläsares standard styling på knappar */
+}
+
+.form-container button:hover,
+.form-container input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Övriga knappar */
+.btn-default {
+    color: black;
+    margin: 40px;
+    border-style: double;
+    font-size: 1.1em;
+    text-decoration: none;
+}
+
+.btn-default:hover {
+    background-color: #40805ccb;
+}
+
+.bil_info_p{   /* bil_info sida*/
+    text-justify:auto; 
+    width:100%; 
+    left:0; 
+    text-align:justify
+}
+
+
+/* Ny styling som bara rör vanliga textsidor som AI-Verktyg */
+.page-content-box {
+    width: 100%;
+    max-width: 900px;     /* Förhindrar att textraderna blir för breda */
+    margin: 30px auto;    /* Centrerar boxen och ger luft uppe/nere */
+    padding: 40px;        /* Ger ordentligt med luft mellan texten och ramen! */
+    box-sizing: border-box; /* Säkerställer att padding räknas in i bredden */
+}
+
+/* Fixa radavstånd och luft i listan på bilden */
+.page-content-box ul {
+    padding-left: 25px;   /* Flyttar in punkterna från kanten */
+    margin-top: 15px;
+}
+
+.page-content-box li {
+    margin-bottom: 15px;  /* Luft mellan varje punkt */
+    line-height: 1.7;     /* Mer utrymme mellan textraderna */
+}
+
+.page-content-box h2 {
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+
+
+/* STYLING FÖR SIDEBAR & WIDGETS (OM OSS-SIDAN) */
+
+/* Gör att sidebaren får lite avstånd och en snygg avskiljare */
+.sidebar {
+    padding: 20px;
+    background-color: #fafafa; /* En mycket svag grå bakgrund för att rama in */
+    border-left: 2px solid #eeeeee; /* En snygg linje mellan texten och sidebaren */
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+
+/* Fixa utrymme mellan de olika widget-blocken */
+.widget-item {
+    margin-bottom: 35px;
+}
+
+/* Styla rubrikerna på dina widgets (Huvud-sidebar) */
+.widget-title {
+    font-size: 18px;
+    color: #333333;
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #4caf50; /* Grön linje under rubriken*/
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+
+/* Media Queries for responsivenes */
+
+@media (max-width: 800px) { /* Responsiv design för meny i mindre skärmar */
+    #header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    #logo-div {
+        flex-direction: row;
+    }
+
+    #nav ul  {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    #nav ul li {
+        width: 100%;
+        border: 2px solid #312e2ee0;
+        margin-top: 6px;
+        background-color: #b9d3c451;
+        margin-left: 60%;
+    }
+
+    #nav ul li a {
+        display: block;
+        width: 100%;
+        padding-left: 120px;
+        padding-right: 120px;
+        text-align: center;
+
+    }
+
+    #nav.open ul  {
+        display: flex;
+    }
+}
+
+@media (min-width: 800px) { /* vid större än 800 behåll navigationen som flex */
+    #nav ul  {
+        display: flex;
+    }
+}
+
+/*media query för andra saker i sidan*/
+@media (max-width: 1160px) {
+    /*gör kontakt sida responsiv*/
+    #SEE_namn  {
+       font-size: 20px;
+    }
+    .car-item {
+        width: 45%;
+    }
+    .commer-snart-list {
+        margin-left: 0px;
+    }
+    .h2{
+        margin-left: 0px;
+    }
+    .car-item {
+        width: 70%;
+    }
+    footer ul{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 350px;
+    }
+}
+@media (max-width: 1000px) {
+     /*gör kontakt sida responsiv*/
+ 
+    footer ul li{ 
+        display: none;
+    }
+    .commer-snart-list{
+        min-height: 900px;
+    }
+    .form-container {
+        width: 100%;
+        max-width: 100%;
+        margin-left: 0%;
+        font-size: small;
+    }
+      
+}
+@media (max-width: 800px) {
+    #SEE_namn {
+        font-size: 18px;
+     }
+    #nav ul li {
+        margin-left: 45%;
+    }
+     /*gör kontakt sida responsiv*/
+    .commer-snart-list{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .box{
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 30px;
+    }
+}
+@media (max-width: 720px) {
+    #nav ul li a {
+        padding-left: 90px;
+        padding-right: 90px;
+        font-size: small;
+    }
+
+    .form-div {
+        margin-left: 2%;
+    }
+    .car-item {
+        width: 80%;
+        margin-left: 20px;
+    }
+    .car-item img{
+        width: 200px;
+    }
+    #footer-h{
+        font-size: 1.5em
+    }
+
+}
+
+@media (max-width: 600px) {
+    #nav ul li {
+        margin-left: 35%;
+    }
+    #SEE_namn  {
+        font-size: 15px;
+    }
+     /*gör kontakt sida responsiv*/
+    #footer-h{
+        font-size: 1.1em
+    }
+    p{
+        font-size: x-small
+    }
+   
+}
+@media (max-width: 500px) {
+    #nav ul li {
+        margin-left: 40%;
+    }
+    /*gör kontakt sida responsiv*/
+    #nav ul li a {
+        padding-left: 70px;
+        padding-right: 70px;
+        font-size: smaller;
+    }
+    .display {
+        display: inline-block;
+    }
+    .car-item {
+        width: 350px;
+    }
+    .car-list {
+        width: 400px;
+        margin-left: 10%;
+    }
+    .commer-snart-list{
+        min-height: 200px;
+        display: flex;
+        width: 100%;
+        margin-top: 20px;
+        padding-bottom: 20px;
+        margin-right: 0px;
+        padding-right: 0px;
+        font-size: small;
+        padding-left: 10px;
+        margin-left: 7%;
+        margin-bottom: 50px;
+    }
+    #h2_kommer_snart_list{
+        padding-top: 40px;
+        margin-left: 0%;
+        color: #000000;
+    }
+    .h2-om{
+        padding-top: 30px;
+        margin-bottom: 15px;
+        font-size: 1.3em;
+    }
+    .ul-om{
+        color: #333333;
+        font-size: small;
+    }
+    .personal h3 {
+        font-size: medium;
+    }
+    .commer1{
+        margin-left: 0px;
+    }
+    .commer1 h3 {
+        font-size: smaller;  
+        margin-top: 10px;
+    }
+    .commer1 img {
+        width: 100px;
+        height: 100px;
+        padding: 10px;
+    }
+
+    .box{
+        width: 90%;
+        margin-left: 5%;
+        margin-top: 20px;
+    }
+    .box p{
+        font-size: small;
+    }
+    .h3-om {
+        padding-left: 10px;
+        font-size: 1.1em;
+    }
+}
+
+
+@media (max-width: 425px) {
+     /*gör kontakt sida responsiv*/
+     #nav ul li {
+        margin-left: 70%;
+    }
+     #nav ul li a {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .car-list {
+        margin-left: 0%;
+    }
+    .commer-snart-list{
+        margin-left: 0%;
+        }
+    .btn-default{
+        margin:0px;
+    }
+}
+
+@media (max-width: 350px) {
+    /*gör kontakt sida responsiv*/
+    #nav ul li {
+        margin-left: 85%;
+    }
+    #nav ul li a {
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: smaller;
+    }
+   .car-list {
+        margin-left: 2%;
+        width: 300px;
+    }
+
+    .h2{
+        font-size: medium;
+    }
+    .car-item {
+        width: 100%;
+        margin-bottom: 10px;
+        margin-left: 0px;
+    }
+    .car-item img {
+        width: 150px;
+    }
+    #h2_kommer_snart_list {
+        padding-top: 0px;
+    }
+    .box{
+        width: 100%;
+        margin-left: 0%;
+        margin-top: 15px;
+    }
+    .box p{
+        font-size: smaller;
+    }
+}
