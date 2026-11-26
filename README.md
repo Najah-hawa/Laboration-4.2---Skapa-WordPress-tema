@@ -5,10 +5,6 @@ Detta repository innehåller det fristående, egentillverkade WordPress-temat f�
 ## Publicerad webbplats
 - **Live-länk:** `https://studenter.miun.se/~naha2204/writeable/wordpress-6.9_Moment4/wordpress/`
 
-## Användarkonton för testkörning (`wp-admin`)
-- **Administratör:** `Najah Hawa` / `6337PJNrZr` (full tillgång till webbplats, teman, tillägg och användare)
-- **Redaktör (Mattias Dahlgren):** `mattias` / `password_mattias` (behörighet att redigera inlägg och sidor, utan rättighet att uppdatera WordPress-kärnan, skapa nya användare eller ändra temainställningar)
-
 ## Implementerad funktionalitet och kravuppfyllnad
 - **Egentillverkat och fristående tema:** Byggt från grunden som ett eget WordPress-tema (inte ett child-tema) med semantisk struktur, anpassad CSS och dynamiska menyer (`wp_nav_menu`) för både huvudmeny och footermeny.
 - **Anpassade sidmallar och standardsida:** Flera sidmallar (bland annat för lager/bilsida, kontaktsida och AI-verktyg) samt stöd för vanliga undersidor utan vald mall (`page.php`).
