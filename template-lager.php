@@ -4,7 +4,7 @@ Template Name: Lager - Bilsida
 */
 get_header(); ?>
 
-<main>
+
     <div class="display"> 
  
         <div class="car-list">
@@ -49,8 +49,8 @@ get_header(); ?>
                         $lager_coming->the_post();
                         ?>
                         <div class="commer1">
-                            <?php if (has_post_thumbnail()) { the_post_thumbnail('rondad-bild'); } ?>   
                             <h3><?php the_title(); ?></h3>
+                            <?php if (has_post_thumbnail()) { the_post_thumbnail('rondad-bild'); } ?>   
                         </div>
                         <?php
                     }
@@ -61,6 +61,6 @@ get_header(); ?>
         </div>
         
     </div>
-</main>
+
 
 <?php get_footer(); ?>

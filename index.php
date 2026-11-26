@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-<main>
+
     <div class="display"> 
         
         <div class="page-content-box">
@@ -29,6 +29,6 @@
         </div>
 
     </div>
-</main>
+
 
 <?php get_footer(); ?>

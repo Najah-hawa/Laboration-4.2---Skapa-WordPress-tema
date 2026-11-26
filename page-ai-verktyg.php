@@ -4,7 +4,7 @@
  */
 get_header(); ?>
 
-<main>
+
     <div class="display"> 
         
         <div class="page-content-box">
@@ -27,6 +27,6 @@ get_header(); ?>
         </div>
 
     </div>
-</main>
+
 
 <?php get_footer(); ?>
