@@ -40,8 +40,8 @@
                     the_post();
                         ?>
                     <div class="commer1">
-                    <?php if(has_post_thumbnail()){the_post_thumbnail('rondad-bild'); } ?>   
                     <h3><?php the_title();?></h3>
+                    <?php if(has_post_thumbnail()){the_post_thumbnail('rondad-bild'); } ?>   
                      </div>
                         <?php
 
